@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar , .bg-carousel , .cardr{
+    background-color: #f3f2ec;
+}
+.photos{
+    background-color: #edebe4;
+    margin: auto;
+}
+.navbar-brand{
+    font-family: Georgia, 'Times New Roman', Times, serif !important ;
+}
+.home{
+color:#daa578;
+}
+.logo{
+width: 120px;
+}
+
+@media(max-weidth=992px){
+    .carousel{
+        height: calc(100vh - 60px);
+    }
+    .cardr {
+       flex-wrap: wrap;
+
+    }
+}
